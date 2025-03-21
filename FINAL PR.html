@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercy A | </title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            color: #333;
+        }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        header a:hover {
+            color: #ddd;
+        }
+
+        /* Section */
+        section {
+            padding: 60px 0;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        h3 {
+            color: #4CAF50;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* About Section */
+        #about p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Skills Section */
+        .skills-list {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .skills-list span {
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Projects Section */
+        .projects {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            background-color:white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            transition: transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-card h3 {
+            color: #4CAF50;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .project-card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contact Section */
+        #contact p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        #contact a {
+            color: #ecf8ec;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* CV Download Button */
+  #cv-download {
+   margin-top: 20px;
+  }
+
+  #cv-download a {
+   background-color: #051305;
+   color: #fff;
+   padding: 12px 24px;
+   border-radius: 8px;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 18px; /* Increased font size */
+   display: inline-block;
+   transition: background-color 0.3s, color 0.3s;
+   border: 2px solid #fff; /* Added a white border for better visibility */
+  }
+
+  #cv-download a:hover {
+   background-color: #45a049;
+   color: #110f0f;
+   border-color: #0a0a0a;
+  }
+
+
+        /* Footer */
+        footer {
+            background-color: #1e8821;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .skills-list, .projects {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            header nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body style="background-image: url('./abstract-green-triangle-background-vector-1479054.avif');">
+
+<!-- Header -->
+<header>
+    <img src="mercy.jpeg" width="120" height="120">
+    <h1>Mercy A</h1>
+    <h2>Student at Patrician College</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm Mercy A, a passionate student at Patrician College, exploring the world of web development and coding. 
+            I enjoy building creative and functional websites using modern technologies.
+        </p>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <div class="container">
+        <h3 style="color: #0e110e;">Skills</h3>
+        <div class="skills-list">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Git</span>
+            <span>MongoDB</span>
+            <span>Firebase</span>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <div class="container">
+        <h3 style="color: #151a15;">Projects</h3>
+        <div class="projects">
+            <div class="project-card">
+                <h2>Project 1</h2>
+                <p>A to-do list app built with React and Firebase for real-time updates.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h2>Project 2</h2>
+                <p>A weather app that uses an API to fetch live weather data.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+        <h3 style="color: #051305;">Contact Me</h3>
+        <p style='color: #051305;'>Email: <a href="mailto:mercy@example.com">mercy@example.com</a></p>
+        <p style='color: #051305;'>GitHub: <a href="https://github.com/your-github" target="_blank">github.com/your-github</a></p>
+        <p style='color: #051305;'>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
+        
+        <!-- CV Download -->
+        <div class="cv-download" id="cv-download">
+            <a href="cv.pdf" download>Download CV</a>
+        </div>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2025 Mercy A. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
