@@ -75,74 +75,22 @@
             margin-bottom: 20px;
         }
 
-        /* About Section */
-        #about p {
-            font-size: 18px;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        /* Skills Section */
-        .skills-list {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .skills-list span {
-            background-color: #f4f4f4;
-            padding: 10px 20px;
-            border-radius: 20px;
-            border: 1px solid #ddd;
-            font-size: 16px;
-            color: #555;
-        }
-
-        /* Projects Section */
-        .projects {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .project-card {
-            background-color: white;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            width: 300px;
-            transition: transform 0.3s;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-
-        .project-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .project-card h3 {
-            color: #4CAF50;
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-
-        .project-card p {
-            font-size: 14px;
-            color: #777;
-        }
-
-        .project-card a {
+        /* Download Button */
+        .download-btn {
             display: inline-block;
-            margin-top: 10px;
-            color: #4CAF50;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
             text-decoration: none;
+            font-size: 16px;
             font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
         }
 
-        .project-card a:hover {
-            text-decoration: underline;
+        .download-btn:hover {
+            background-color: #388E3C;
         }
 
         /* Footer */
@@ -178,52 +126,8 @@
             Hi! I'm Mercy A, a passionate student at Patrician College, exploring the world of web development and coding. 
             I enjoy building creative and functional websites using modern technologies.
         </p>
-    </div>
-</section>
-
-<!-- Skills Section -->
-<section id="skills">
-    <div class="container">
-        <h3>Skills</h3>
-        <div class="skills-list">
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>Node.js</span>
-            <span>Git</span>
-            <span>MongoDB</span>
-            <span>Firebase</span>
-        </div>
-    </div>
-</section>
-
-<!-- Projects Section -->
-<section id="projects">
-    <div class="container">
-        <h3>Projects</h3>
-        <div class="projects">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>A portfolio website showcasing my skills and projects.</p>
-                <a href="#" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>A JavaScript-based interactive quiz application.</p>
-                <a href="#" target="_blank">View Project</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact">
-    <div class="container">
-        <h3>Contact Me</h3>
-        <p>Email: <a href="mailto:mercy@example.com">mercy@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/mercyasir" target="_blank">github.com/mercyasir</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/mercyasir" target="_blank">linkedin.com/in/mercyasir</a></p>
+        <a href="https://raw.githubusercontent.com/mercyasir/HTML-/13f1051ee8dcbaa1badcb51f726322599bb0962e/MERCY%20CV.jpg" 
+           download="MERCY_CV.jpg" class="download-btn">Download My CV</a>
     </div>
 </section>
 
@@ -234,3 +138,4 @@
 
 </body>
 </html>
+
